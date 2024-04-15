@@ -1,0 +1,28 @@
+@import 'vars.css';
+
+.banner-icon {
+  width: 5vh;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-icon-button {
+  background-color: var(--lighter-grey);
+  color: white;
+  cursor: pointer;
+
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-icon-image {
+  height: 50%;
+  width: 50%;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}

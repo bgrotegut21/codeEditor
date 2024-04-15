@@ -1,0 +1,10 @@
+:root {
+  --light-grey: #34363e;
+  --lighter-grey: #5a5f73;
+  --error-red: #4a1d1f;
+  --error-yellow: #847313;
+
+  --html-red: #ff3c42;
+  --js-blue: #0dbeff;
+  --css-yellow: #fcd002;
+}
