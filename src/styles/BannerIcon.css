@@ -3,15 +3,16 @@
 .banner-icon {
   width: 5vh;
   height: 5vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .banner-icon-button {
   background-color: var(--lighter-grey);
   color: white;
-  cursor: pointer;
 
   width: calc(100% - 15px);
   height: calc(100% - 15px);
@@ -19,10 +20,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10%;
 }
 
 .banner-icon-image {
   height: 50%;
   width: 50%;
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.banner-icon-button-overlay {
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+
+  text-indent: -9999px;
+  border-radius: 10%;
+
+  opacity: 0;
+
+  width: calc(100% - 15px);
+
+  height: calc(100% - 15px);
 }

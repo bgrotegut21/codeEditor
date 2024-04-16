@@ -37,6 +37,7 @@ const BannerIcon = ({ iconModel }) => {
 
   return (
     <div className='banner-icon'>
+      <div className='banner-icon-button-overlay'>banner button icon overlay</div>
       <div className='banner-icon-button'>
         <img className='banner-icon-image' src={icon.src} alt={icon.altText} />
       </div>
